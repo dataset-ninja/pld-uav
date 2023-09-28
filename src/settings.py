@@ -41,7 +41,7 @@ if RELEASE_DATE is None:
 HOMEPAGE_URL: str = "https://snorkerheng.github.io/PLD-UAV/"
 # e.g. "https://some.com/dataset/homepage"
 
-PREVIEW_IMAGE_ID: int = 5223102
+PREVIEW_IMAGE_ID: int = 5237554
 # This should be filled AFTER uploading images to instance, just ID of any image.
 
 GITHUB_URL: str = "https://github.com/dataset-ninja/pld-uav"
