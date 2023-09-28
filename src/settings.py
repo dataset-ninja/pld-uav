@@ -15,7 +15,7 @@ from dataset_tools.templates import (
 ##################################
 PROJECT_NAME: str = "PLD-UAV"
 PROJECT_NAME_FULL: str = "PLD-UAV: Power Line Detection in UAV"
-HIDE_DATASET = True  # set False when 100% sure about repo quality
+HIDE_DATASET = False  # set False when 100% sure about repo quality
 
 ##################################
 # * After uploading to instance ##
@@ -86,7 +86,7 @@ ORGANIZATION_URL: Optional[Union[str, List[str]]] = [
 
 # Set '__PRETEXT__' or '__POSTTEXT__' as a key with string value to add custom text. e.g. SLYTAGSPLIT = {'__POSTTEXT__':'some text}
 SLYTAGSPLIT: Optional[Dict[str, Union[List[str], str]]] = {
-    "__PRETEXT__": "Additionally, images with augmentation have ***aug*** tag. Also, every image is grouped by its ***image_id***. Explore them in supervisely advanced labeling tool"
+    "__PRETEXT__": "Additionally, ***aug*** tag characterizes the degree of an augmentation. Also, every image is grouped by its ***image_id***. Explore them in supervisely advanced labeling tool"
 }
 TAGS: Optional[List[str]] = None
 
