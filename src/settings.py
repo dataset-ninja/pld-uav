@@ -20,7 +20,7 @@ HIDE_DATASET = False  # set False when 100% sure about repo quality
 ##################################
 # * After uploading to instance ##
 ##################################
-LICENSE: License = License.CC_BY_4_0()
+LICENSE: License = License.CC_BY_4_0(source_url="https://www.mdpi.com/2072-4292/11/11/1342?type=check_update&version=1")
 APPLICATIONS: List[Union[Industry, Domain, Research]] = [
     Industry.Energy(),
     Domain.DroneInspection(),
