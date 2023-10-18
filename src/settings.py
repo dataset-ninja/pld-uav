@@ -67,7 +67,7 @@ PAPER: Optional[
 BLOGPOST: Optional[Union[str, List[str], Dict[str, str]]] = None
 REPOSITORY: Optional[
     Union[str, List[str], Dict[str, str]]
-] = "https://github.com/SnorkerHeng/PLD-UAV"
+] = {"Github":"https://github.com/SnorkerHeng/PLD-UAV"}
 
 CITATION_URL: Optional[str] = None
 AUTHORS: Optional[List[str]] = [
