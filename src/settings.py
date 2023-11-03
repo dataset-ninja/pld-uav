@@ -67,7 +67,7 @@ PAPER: Optional[
 BLOGPOST: Optional[Union[str, List[str], Dict[str, str]]] = None
 REPOSITORY: Optional[
     Union[str, List[str], Dict[str, str]]
-] = {"Github":"https://github.com/SnorkerHeng/PLD-UAV"}
+] = {"GitHub":"https://github.com/SnorkerHeng/PLD-UAV"}
 
 CITATION_URL: Optional[str] = None
 AUTHORS: Optional[List[str]] = [
@@ -77,6 +77,7 @@ AUTHORS: Optional[List[str]] = [
     "Haijian Zhang",
     "Gui-Song Xia",
 ]
+AUTHORS_CONTACTS: Optional[List[str]] = ["yangwen@whu.edu.cn"]
 
 ORGANIZATION_NAME: Optional[Union[str, List[str]]] = ["Wuhan University, China", "LIESMARS, China"]
 ORGANIZATION_URL: Optional[Union[str, List[str]]] = [
@@ -86,7 +87,7 @@ ORGANIZATION_URL: Optional[Union[str, List[str]]] = [
 
 # Set '__PRETEXT__' or '__POSTTEXT__' as a key with string value to add custom text. e.g. SLYTAGSPLIT = {'__POSTTEXT__':'some text}
 SLYTAGSPLIT: Optional[Dict[str, Union[List[str], str]]] = {
-    "__PRETEXT__": "Additionally, ***aug*** tag characterizes the degree of an augmentation. Also, every image is grouped by its ***image_id***. Explore them in supervisely advanced labeling tool"
+    "__PRETEXT__": "Additionally, ***aug*** tag characterizes the degree of an augmentation. Also, every image is grouped by its ***image_id***. Explore them in supervisely labeling tool"
 }
 TAGS: Optional[List[str]] = None
 
@@ -134,6 +135,7 @@ def get_settings():
     settings["repository"] = REPOSITORY
     settings["citation_url"] = CITATION_URL
     settings["authors"] = AUTHORS
+    settings["authors_contacts"] = AUTHORS_CONTACTS
     settings["organization_name"] = ORGANIZATION_NAME
     settings["organization_url"] = ORGANIZATION_URL
     settings["slytagsplit"] = SLYTAGSPLIT
