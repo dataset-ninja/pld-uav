@@ -89,7 +89,7 @@ ORGANIZATION_URL: Optional[Union[str, List[str]]] = [
 SLYTAGSPLIT: Optional[Dict[str, Union[List[str], str]]] = {
     "__PRETEXT__": "Additionally, ***aug*** tag characterizes the degree of an augmentation. Also, every image is grouped by its ***image_id***. Explore them in supervisely labeling tool"
 }
-TAGS: Optional[List[str]] = None
+TAGS: Optional[List[str]] = ['multi-view']
 
 SECTION_EXPLORE_CUSTOM_DATASETS: Optional[List[str]] = None
 
