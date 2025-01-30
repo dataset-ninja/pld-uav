@@ -1,6 +1,6 @@
 Dataset **PLD-UAV** can be downloaded in [Supervisely format](https://developer.supervisely.com/api-references/supervisely-annotation-json-format):
 
- [Download](https://www.dropbox.com/scl/fi/vnhstofaci3j8xhgdz6b0/plduav-DatasetNinja.tar?rlkey=7x1bahnr0gwndlfvsokuc94qo&dl=1)
+ [Download](https://assets.supervisely.com/remote/eyJsaW5rIjogImZzOi8vYXNzZXRzLzIyNjhfUExELVVBVi9wbGR1YXYtRGF0YXNldE5pbmphLnRhciIsICJzaWciOiAiVnYwUnpHN2dqekw1MGl0T1RRc08vVTlrdmJRdVl4dVQ4a2FRVTdjb25oWT0ifQ==)
 
 As an alternative, it can be downloaded with *dataset-tools* package:
 ``` bash
